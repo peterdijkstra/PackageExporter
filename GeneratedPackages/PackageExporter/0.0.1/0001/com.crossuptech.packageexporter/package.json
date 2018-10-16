@@ -1,0 +1,12 @@
+{
+    "name": "com.crossuptech.packageexporter",
+    "displayName": "PackageExporter",
+    "version": "0.0.1",
+    "unity": "2018.3",
+    "description": "The Package Exporter, as a package!",
+    "keywords": [
+        "Unity",
+        "Package"
+    ],
+    "category": "Crossup Tech"
+}

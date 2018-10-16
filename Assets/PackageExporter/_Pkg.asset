@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5943f43e77e8473b85e8f45d10e8e0f, type: 3}
+  m_Name: PackageExporter
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: stub
+      Entry: 7
+      Data: 0|PackageExporter+PackageJsonStub, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: com.companyname.packagename
+    - Name: displayName
+      Entry: 1
+      Data: Package Name
+    - Name: version
+      Entry: 1
+      Data: 0.0.1-prerelease
+    - Name: unity
+      Entry: 1
+      Data: 2018.3
+    - Name: description
+      Entry: 1
+      Data: This is a sweet package!
+    - Name: keywords
+      Entry: 7
+      Data: 1|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Nice
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: category
+      Entry: 1
+      Data: My packages
+    - Name: 
+      Entry: 8
+      Data: 
