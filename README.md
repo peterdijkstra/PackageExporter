@@ -28,6 +28,10 @@ The package(s) can now be found at the root of your project in a newly created f
 * Consider this thing untested!!
 * Lastly, I'm not sure what will happen if you include this in a project that's meant for building. I made this so I can easily export my tools and extensions to a package, so in my usecase this script will most likely never find its way into an actual project.
 
+## Screenshots
+![valid](docs/valid.jpg)
+![invalid](docs/invalid.jpg)
+
 ## Special thanks
 * [Sirenix](https://sirenix.net/) for making my Unity life ever so easier
 * [LotteMakesStuff](https://gist.github.com/LotteMakesStuff) for the informative [write up](https://gist.github.com/LotteMakesStuff/6e02e0ea303030517a071a1c81eb016e) about the new package system!
