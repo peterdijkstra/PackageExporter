@@ -29,8 +29,8 @@ The package(s) can now be found at the root of your project in a newly created f
 * Lastly, I'm not sure what will happen if you include this in a project that's meant for building. I made this so I can easily export my tools and extensions to a package, so in my usecase this script will most likely never find its way into an actual project.
 
 ## Screenshots
-![valid](docs/valid.jpg)
-![invalid](docs/invalid.jpg)
+![valid](docs/valid.jpg | width = 200)
+![invalid](docs/invalid.jpg | width = 200)
 
 ## Special thanks
 * [Sirenix](https://sirenix.net/) for making my Unity life ever so easier
