@@ -53,7 +53,7 @@ public class PackageExporter : SerializedScriptableObject
     /// </summary>
     private DirectoryInfo GetPackageExportFolder()
     {
-        var exportFolderPath = Application.dataPath.Replace("Assets", "GeneratedPackages");
+        var exportFolderPath = Application.dataPath.Replace("Assets", "ExportedPackages");
 
         var exportFolder = new DirectoryInfo(exportFolderPath);
         if (exportFolder.Exists == false)
