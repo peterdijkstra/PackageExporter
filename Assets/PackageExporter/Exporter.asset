@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5943f43e77e8473b85e8f45d10e8e0f, type: 3}
-  m_Name: PackageExporter
+  m_Name: Exporter
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -23,31 +23,34 @@ MonoBehaviour:
     SerializationNodes:
     - Name: stub
       Entry: 7
-      Data: 0|PackageExporter+PackageJsonStub, Assembly-CSharp
+      Data: 0|PackageExporter+PackageJsonStub, PackageExporter
     - Name: name
       Entry: 1
-      Data: com.companyname.packagename
+      Data: com.crossuptech.packageexporter
     - Name: displayName
       Entry: 1
-      Data: Package Name
+      Data: PackageExporter
     - Name: version
       Entry: 1
-      Data: 0.0.1-prerelease
+      Data: 0.0.1
     - Name: unity
       Entry: 1
       Data: 2018.3
     - Name: description
       Entry: 1
-      Data: This is a sweet package!
+      Data: The Package Exporter, as a package!
     - Name: keywords
       Entry: 7
       Data: 1|System.String[], mscorlib
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 1
-      Data: Nice
+      Data: Unity
+    - Name: 
+      Entry: 1
+      Data: Package
     - Name: 
       Entry: 13
       Data: 
@@ -56,7 +59,7 @@ MonoBehaviour:
       Data: 
     - Name: category
       Entry: 1
-      Data: My packages
+      Data: Crossup Tech
     - Name: 
       Entry: 8
       Data: 

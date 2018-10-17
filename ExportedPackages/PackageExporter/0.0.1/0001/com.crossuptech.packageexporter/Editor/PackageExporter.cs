@@ -72,7 +72,7 @@ public class PackageExporter : SerializedScriptableObject
 
         return GetWorkingDirectory()
                 .EnumerateFiles("*.*", SearchOption.AllDirectories)
-                .Where(x => x.Name.Contains(this.name) == false)
+                .Where(x => x.Name != $"{this.name}.asset" || x.Name != $"{this.name}.asset.meta")
                 .Count() > 0;
     }
 
@@ -222,7 +222,7 @@ public class PackageExporter : SerializedScriptableObject
         CopyDirectoryAndFilesTo(GetWorkingDirectory(), pkgExportFolder);
         // this asset also got copied over, so delete it and its meta file
         // NOTE: ForEach is an extension provided by Odin
-        pkgExportFolder.GetFiles().Where(x => x.Name.Contains(this.name)).ForEach(x => x.Delete());
+        pkgExportFolder.GetFiles().Where(x => x.Name == $"{this.name}.asset" || x.Name == $"{this.name}.asset.meta").ForEach(x => x.Delete());
         // finally, create the package.json file
         File.WriteAllText(pkgExportFolder.FullName + "/package.json", Json);
 

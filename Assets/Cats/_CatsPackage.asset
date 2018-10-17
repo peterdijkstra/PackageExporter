@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5943f43e77e8473b85e8f45d10e8e0f, type: 3}
-  m_Name: _Pkg
+  m_Name: _CatsPackage
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -26,19 +26,19 @@ MonoBehaviour:
       Data: 0|PackageExporter+PackageJsonStub, PackageExporter
     - Name: name
       Entry: 1
-      Data: com.companyname.packagename
+      Data: com.cats.cats
     - Name: displayName
       Entry: 1
-      Data: Package Name
+      Data: Cats!
     - Name: version
       Entry: 1
-      Data: 0.0.1-prerelease
+      Data: 1.0.0
     - Name: unity
       Entry: 1
       Data: 2018.3
     - Name: description
       Entry: 1
-      Data: This is a sweet package!
+      Data: Three cats!
     - Name: keywords
       Entry: 7
       Data: 1|System.String[], mscorlib
@@ -47,7 +47,7 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 1
-      Data: Nice
+      Data: Cute
     - Name: 
       Entry: 13
       Data: 
@@ -56,7 +56,7 @@ MonoBehaviour:
       Data: 
     - Name: category
       Entry: 1
-      Data: My packages
+      Data: Animals
     - Name: 
       Entry: 8
       Data: 
