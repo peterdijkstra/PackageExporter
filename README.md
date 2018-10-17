@@ -24,7 +24,7 @@ This will add the package path to the manifest file in the Packages folder in yo
 
 <img src="docs/path.jpg" width="800">
 
-As you can see it points to a local full path. This is not ideal if you're not the sole developer on your project. I'm not sure what the best solution is. Maybe a network drive?
+As you can see it points to a local full path. This is not ideal if you're not the only developer on the project. [It does seem](https://forum.unity.com/threads/other-registries-than-unitys-own-already-work-nice.533691/) that you can use your own npm registry. However that's beyond the scope of this project (at least for now).
 
 ## Limitations
 * AudioClips wouldn't import from a package, so you can't export packages with AudioClips in them.
