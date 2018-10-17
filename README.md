@@ -16,17 +16,25 @@ Easily export a folder of scripts and assets as a local Unity 2018 package for u
 
 The package(s) can now be found at the root of your project in a newly created folder called ExportedPackages. The tool will automatically create folders for each package, for each version, and also for each export of the same folder. It should not overwrite a previous export!
 
+In Unity 2018.3 you can add a package to another project by using the + button on the Package Manager window.
+
 ## Limitations
 * AudioClips wouldn't import from a package, so you can't export packages with AudioClips in them.
-* Currently the tool only spits out a package for local use. I don't know what is gonna happen if you'd put it on a server or something.
+* Currently the tool only spits out a package for local use. I don't know what is gonna happen if you'd put it on a server or something. The generated package.json is easy enough to edit by hand, though.
 * I have not tested it on an OS other than macOS Mojave.
 * I have not tested it with large files or folders.
-* I have only tested it on Unity 2018.3, will probably work on an earlier version though. But maybe not.
+* I have only tested it on Unity 2018.3, will probably work on an earlier version though. But maybe not?
 * I have only tested it with scripts, a few textures and an AudioClip.
 * I'm not sure what will happen if you move the Package Exporter asset around.
 * I have no idea if this thing is performant, but it seems fast enough.
 * Consider this thing untested!!
-* Lastly, I'm not sure what will happen if you include this in a project that's meant for building. I made this so I can easily export my tools and extensions to a package, so in my usecase this script will most likely never find its way into an actual project.
+* Lastly, I'm not sure what will happen if you include this in a project that's meant for deployment. I made this so I can easily export my tools and extensions to a package, so I can use those things in other projects. In my usecase this script will never find its way into an actual project.
+
+## Todo
+* Make the validation more intelligent and expandable.
+* Test some more
+* Maybe add dependencies to the package.json
+* Unity editor version field validation?
 
 ## Screenshots
 <img src="docs/valid.jpg" width="400"><img src="docs/invalid.jpg" width="400">
