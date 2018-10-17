@@ -41,7 +41,7 @@ As you can see it points to a local full path. This is not ideal if you're not t
 ## Todo
 * Make the validation more intelligent and expandable.
 * Test some more
-* Maybe add dependencies to the package.json
+* Maybe add dependencies to the package.json generation
 * Unity editor version field validation?
 
 ## Screenshots
