@@ -18,13 +18,13 @@ The package(s) can now be found at the root of your project in a newly created f
 
 In Unity 2018.3 you can add a package to another project by using the + button on the Package Manager window.
 
-<img src="docs/import.gif" width="400">
+<img src="docs/import.gif" width="600">
 
 This will add the package path to the manifest file in the Packages folder in your project root
 
-<img src="docs/path.jpg" width="400">
+<img src="docs/path.jpg" width="800">
 
-As you can see it points to a local full path. This is not ideal if you're not the sole developer on your project. I'm not sure what the best solution is. Maybe a network drive? Anyhow for local projects it works.
+As you can see it points to a local full path. This is not ideal if you're not the sole developer on your project. I'm not sure what the best solution is. Maybe a network drive?
 
 ## Limitations
 * AudioClips wouldn't import from a package, so you can't export packages with AudioClips in them.
