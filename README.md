@@ -1,7 +1,7 @@
 # PackageExporter
 Easily export a folder of scripts and assets as a local Unity 2018 package for use with the new Package Manager.
 
-### Deprecated! Archived!
+## Deprecated! Archived!
 Since I do not intend to work on this package anymore, I'm putting it in archived mode. I made this back when git support wasn't available for the Unity Package Manager (or at the very least it was an iffy process), when it made more sense to upload your packages to an external package repository. Now, you can do that far easier through git or OpenUPM. For a good tutorial, read [this](https://www.patreon.com/posts/25070968).
 
 I suppose there's use for a Unity extensions that automatically does most of this work, and maybe I'll remake this then using UIToolkit instead of Odin.
